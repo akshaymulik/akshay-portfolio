@@ -7,10 +7,10 @@ import deved from '../../public/AkshayM.webp';
 import design from '../../public/design.png';
 import code from '../../public/code.png';
 import consult from '../../public/consulting.png';
-import web1 from "../../public/web1.png";
-import web2 from "../../public/web2.png";
-import web3 from "../../public/web3.png";
-import web4 from "../../public/web4.png";
+import aiv from "../../public/aiv.png";
+import airflow from "../../public/airflow.png";
+import linep from "../../public/linep.png";
+import rover from "../../public/rover.png";
 import { useState } from 'react';
 
 export default function Home() {
@@ -20,17 +20,20 @@ export default function Home() {
       <Head>
         <title>Akshay M Portfolio</title>
         <meta name="description" content='created by Akshay'></meta>
-        <link rel="icon" href="../../public/favicon.ico"></link>
+        <link rel="icon" href="favicon.ico"></link>
       </Head>
       <main className='bg-white px-10 md:px-20 lg:40 dark:bg-gray-900'>
         <section className=' min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
-            <h1 className='text-xl font-burtons'>Portfolio:</h1>
+            <h1 className='text-xl font-burtons dark:text-white'>Portfolio:</h1>
             <ul className='flex items-center'>
               <li>
-                <BsFillMoonStarsFill onClick={()=> setDarkMode(!darkMode)} className='cursor-pointer text-xl'/>
+                <div className='flex flex-wrap flex-row dark:text-white'>
+                  <p> Mode:&nbsp;</p>
+                  <BsFillMoonStarsFill onClick={()=> setDarkMode(!darkMode)} className='cursor-pointer text-xl'/>
+                </div>             
               </li>
-              <li><a href='#' className='bg-gradient-to-r from-cyan-500 to-teal-500 bg-cyan500 px-4 py-2 text-white rounded-md ml-8'>Resume</a></li>
+              <li><a href='https://raw.githubusercontent.com/akshaymulik/about/main/Akshay_Mulik_Resume.pdf' target='_blank' className='bg-gradient-to-r from-cyan-500 via-teal-500 to-green-500 bg-cyan500 px-4 py-2 text-white rounded-md ml-8'>Resume</a></li>
             </ul>
           </nav>
           <div className='relative mx-auto rounded-full w-80 h-80 mt-10 overflow-hidden md:h-96 md:w-96'>
@@ -56,7 +59,7 @@ export default function Home() {
         </section>
         <section>
           {/* Cards */}
-          <div className='lg:flex gap-10'>
+          <div className='lg:flex gap-10 justify-center'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
               <Image src={design} width={100} height={100} alt={''}></Image>
               <h3>Beautiful Design</h3>
@@ -94,26 +97,56 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className='text-3xl py-1'>Projects</h3>
+            <h3 className='text-3xl py-1 dark:text-white'>Projects</h3>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
-              <Image src={web1} alt='' className='rounded-lg object-cover' width={"100"} height={'100'} layout="responsive"></Image>
+              <div className='shadow-lg shadow-gray-400 hover:shadow-teal-500 rounded-lg object-cover'>
+                <Image src={aiv} alt='Automated Indicators for vehicles' width={"100"} height={'100'} layout="responsive"/>
+                <a href="https://www.github.com/akshaymulik/aiv" target='_blank' 
+                className='dark:text-white dark:hover:text-teal-500 text-xl hover:text-rose-500'>
+                  <div className='flex flex-wrap flex-row'>
+                    <AiFillGithub className='mx-3 my-1'/>
+                    <p className='text-lg'>/akshaymulik/aiv</p>
+                  </div>
+                </a>
+              </div>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web2} alt='' className='rounded-lg object-cover' width={"100"} height={'100'} layout="responsive"></Image>
+              <div className='shadow-lg shadow-gray-400 hover:shadow-teal-500 rounded-lg object-cover'>
+                <Image src={airflow} alt='Data pipeline with Apache Airflow' width={"100"} height={'100'} layout="responsive"/>
+                <a href="https://github.com/akshaymulik/Bike_weather" target='_blank' 
+                  className='dark:text-white dark:hover:text-teal-500 text-xl hover:text-rose-500'>
+                  <div className='flex flex-wrap flex-row'>
+                    <AiFillGithub className='mx-3 my-1'/>
+                    <p className='text-lg'>/akshaymulik/Bike_weather</p>
+                  </div>
+                </a>
+              </div>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web3} alt='' className='rounded-lg object-cover' width={"100"} height={'100'} layout="responsive"></Image>
+              <div className='shadow-lg shadow-gray-400 hover:shadow-teal-500 rounded-lg object-cover'>
+                <Image src={linep} alt='line plotting alogorithm in action'  width={"100"} height={'100'} layout="responsive"/>
+                <a href="https://www.github.com/akshaymulik/bresenham-LED" target='_blank' 
+                  className='dark:text-white dark:hover:text-teal-500 text-xl hover:text-rose-500'>
+                  <div className='flex flex-wrap flex-row'>
+                    <AiFillGithub className='mx-3 my-1'/>
+                    <p className='text-lg'>/akshaymulik/bresenham-LED</p>
+                  </div>
+                </a>
+              </div>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web4} alt='' className='rounded-lg object-cover' width={"100"} height={'100'} layout="responsive"></Image>
-            </div>
-            <div className='basis-1/3 flex-1'>
-              <Image src={web2} alt='' className='rounded-lg object-cover' width={"100"} height={'100'} layout="responsive"></Image>
-            </div>
-            <div className='basis-1/3 flex-1'>
-              <Image src={web1} alt='' className='rounded-lg object-cover' width={"100"} height={'100'} layout="responsive"></Image>
+              <div className='shadow-lg shadow-gray-400 hover:shadow-teal-500 rounded-lg object-cover'>
+                <Image src={rover} alt='4WD rover' width={"100"} height={'100'} layout="responsive"/>
+                <a href="youtube.com/akshaymulik/" target='_blank' 
+                className='dark:text-white dark:hover:text-red-500 text-xl hover:text-rose-500'>
+                  <div className='flex flex-wrap flex-row'>
+                    <AiFillYoutube className='mx-3 my-1'/>
+                    <p className='text-lg'>/akshaymulik/</p>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </section> 
