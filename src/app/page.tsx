@@ -62,36 +62,33 @@ export default function Home() {
           <div className='lg:flex gap-10 justify-center'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
               <Image src={design} width={100} height={100} alt={''}></Image>
-              <h3>Beautiful Design</h3>
-              <p className='py-2'>
-                Create Elegant designs fot yout theory.
-              </p>
-              <h4 className='py-4 text-teal-600'>Design Tools</h4>
-              <p className='text-gray-800 py-1'>Photoshop</p>
-              <p className='text-gray-800 py-1'>Illustrator</p>
-              <p className='text-gray-800 py-1'>Arcade</p>
+              <h2 className='py-4 text-teal-600'>Languages</h2>
+              <p className='text-gray-800 py-1'>Python</p>
+              <p className='text-gray-800 py-1'>TypeScript</p>
+              <p className='text-gray-800 py-1'>Java</p>
+              <p className='text-gray-800 py-1'>MySQL</p>
+              <p className='text-gray-800 py-1'>Arduino C++</p>
+              <p className='text-gray-800 py-1'>Bash</p>
+              <p className='text-gray-800 py-1'>HTML5/CSS3</p>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
               <Image src={code} width={100} height={100} alt={''}></Image>
-              <h3>Beautiful Design</h3>
-              <p className='py-2'>
-                Create Elegant designs fot yout theory.
-              </p>
-              <h4 className='py-4 text-teal-600'>Design Tools</h4>
-              <p className='text-gray-800 py-1'>Photoshop</p>
-              <p className='text-gray-800 py-1'>Illustrator</p>
-              <p className='text-gray-800 py-1'>Arcade</p>
+              <h2 className='py-4 text-teal-600'>Libraries/Framework</h2>
+              <p className='text-gray-800 py-1'>Junit/Jasmine/Karma</p>
+              <p className='text-gray-800 py-1'>Node/Angular/React/NextJs</p>
+              <p className='text-gray-800 py-1'>PySpark</p>
+              <p className='text-gray-800 py-1'>Git/Jira/Jenkins/maven</p>
+              <p className='text-gray-800 py-1'>AWS EMR/EC2 ClI</p>
+              <p className='text-gray-800 py-1'>GCP IAM/Cloud-Functions/PubSub/Composer</p>
+              <p className='text-gray-800 py-1'>Something More</p>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
               <Image src={consult} width={100} height={100} alt={''}></Image>
-              <h3>Beautiful Design</h3>
-              <p className='py-2'>
-                Create Elegant designs fot yout theory.
-              </p>
-              <h4 className='py-4 text-teal-600'>Design Tools</h4>
-              <p className='text-gray-800 py-1'>Photoshop</p>
-              <p className='text-gray-800 py-1'>Illustrator</p>
-              <p className='text-gray-800 py-1'>Arcade</p>
+              <h2 className='py-4 text-teal-600'>Skills/Achievemts</h2>
+              <p className='text-gray-800 py-1'>Built AOSP based ROM for LG G3</p>
+              <p className='text-gray-800 py-1'>Improved multithreaded R-Java workflows by 8-10x on HPC</p>
+              <p className='text-gray-800 py-1'>Improved Data Ingestion from Django by 8x</p>
+              <p className='text-gray-800 py-1'>Lead a team to organize Alumi meet and mentorship events,as general secretory.</p>
             </div>
           </div>
         </section>
