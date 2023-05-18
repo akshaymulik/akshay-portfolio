@@ -159,11 +159,11 @@ export default function Home() {
             <div className='basis-1/3 flex-1'>
               <div className='shadow-lg shadow-gray-400 hover:shadow-teal-500 rounded-lg object-cover'>
                 <Image src={rover} alt='4WD rover' width={"100"} height={'100'} layout="responsive"/>
-                <a href="https://www.youtube.com/akshaymulik/video/e9QeNl3xum0/" target='_blank' 
+                <a href="https://www.youtube.com/watch?v=e9QeNl3xum0" target='_blank' 
                 className='dark:text-white dark:hover:text-red-500 text-xl hover:text-rose-500'>
                   <div className='flex flex-wrap flex-row'>
                     <AiFillYoutube className='mx-3 my-1'/>
-                    <p className='text-lg'>/akshaymulik/video/e9QeNl3xum0/</p>
+                    <p className='text-lg'>/akshaymulik/watch?v=e9QeNl3xum0/</p>
                   </div>
                 </a>
               </div>
