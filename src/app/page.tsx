@@ -48,11 +48,11 @@ export default function Home() {
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:tex-6xl'>Akshay Mulik(मुळीक)</h2>
             <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Software Developer Engineer</h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white'>
-            <span className='text-teal-500'>Self-learning</span> has been a big part of my journey. Started by maintiaing my PC by reading the motherboard’s user manual, and learning from visiting technicians when I was 11.
-            Growth in <span className='text-teal-500'>portable electronics</span> motivated me to build some of my <span className='text-teal-500'>Embedded projects</span>, and tinkering with <span className='text-teal-500'>Android's Open-source</span> and learning how it’s made.
+            <span className='text-teal-500'>Self-learning</span> has been a big part of my journey. Started by maintiaing my PC by reading the motherboard&#39s; user manual, and learning from visiting technicians when I was 11.
+            Growth in <span className='text-teal-500'>portable electronics</span> motivated me to build some of my <span className='text-teal-500'>Embedded projects</span>, and tinkering with <span className='text-teal-500'>Android&#39s; Open-source</span> and learning how it’s made.
             I love building things that can make a real <span className='text-teal-500'>impact on society</span>. For me, the thrill of designing and creating new products is all about finding <span className='text-teal-500'>innovative solutions</span> to complex problems. 
-            Whether it's building a new piece of technology or finding a way to improve an existing one, I'm always up for a challenge.
-            <span className='text-teal-500'> If you're looking for someone who's dedicated, creative, and driven to make a difference, then I'm your guy!
+            Whether it's building a new piece of technology or finding a way to improve an existing one, I&#39;m always up for a challenge.
+            <span className='text-teal-500'> If you&#39;re looking for someone who&#39;s dedicated, creative, and driven to make a difference, then I&#39m your guy!
             </span></p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
