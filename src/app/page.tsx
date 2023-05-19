@@ -32,10 +32,10 @@ export default function Home() {
             <FaSun className='text-yellow-500 dark:collapse text-5xl hover:animate-spin'/>
             <ul className='flex items-center'>
               <li>
-                <div className='flex flex-wrap flex-row dark:text-white'>
+                <div className='flex flex-wrap flex-row'>
                   <AiFillStar className='dark:text-yellow-500 dark:visible collapse text-5xl hover:animate-spin mx-3'/>
-                  <p className='my-3'> Mode:&nbsp;</p>
-                  <BsFillMoonStarsFill onClick={()=> setDarkMode(!darkMode)} className='cursor-pointer text-xl my-3'/>
+                  <p className='my-3 dark:text-white text-gray-900'> Mode:&nbsp;</p>
+                  <BsFillMoonStarsFill onClick={()=> setDarkMode(!darkMode)} className='cursor-pointer text-xl my-3 dark:text-white text-gray-900'/>
                 </div>             
               </li>
               <li><a href='https://raw.githubusercontent.com/akshaymulik/about/main/Akshay_Mulik_Resume.pdf' target='_blank' className='bg-gradient-to-r from-cyan-500 via-teal-500 to-green-500 bg-cyan500 px-4 py-2 text-white rounded-md ml-8'>Resume</a></li>
@@ -48,11 +48,11 @@ export default function Home() {
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:tex-6xl'>Akshay Mulik(मुळीक)</h2>
             <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Software Developer Engineer</h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white'>
-            <span className='text-teal-500'>Self-learning</span> has been a big part of my journey. Started by maintiaing my PC by reading the motherboard&#39s; user manual, and learning from visiting technicians when I was 11.
-            Growth in <span className='text-teal-500'>portable electronics</span> motivated me to build some of my <span className='text-teal-500'>Embedded projects</span>, and tinkering with <span className='text-teal-500'>Android&#39s; Open-source</span> and learning how it’s made.
+            <span className='text-teal-500'>Self-learning</span> has been a big part of my journey. Started by maintiaing my PC by reading the motherboard&apos; user manual, and learning from visiting technicians when I was 11.
+            Growth in <span className='text-teal-500'>portable electronics</span> motivated me to build some of my <span className='text-teal-500'>Embedded projects</span>, and tinkering with <span className='text-teal-500'>Android&apos;s Open-source</span> and learning how it’s made.
             I love building things that can make a real <span className='text-teal-500'>impact on society</span>. For me, the thrill of designing and creating new products is all about finding <span className='text-teal-500'>innovative solutions</span> to complex problems. 
-            Whether it&#39;s building a new piece of technology or finding a way to improve an existing one, I&#39;m always up for a challenge.
-            <span className='text-teal-500'> If you&#39;re looking for someone who&#39;s dedicated, creative, and driven to make a difference, then I&#39m your guy!
+            Whether it&apos;s building a new piece of technology or finding a way to improve an existing one, I&apos;m always up for a challenge.
+            <span className='text-teal-500'> If you&apos;re looking for someone who&apos;s dedicated, creative, and driven to make a difference, then I&apos;m your guy!
             </span></p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
@@ -127,7 +127,7 @@ export default function Home() {
                 className='dark:text-white dark:hover:text-teal-500 text-xl hover:text-rose-500'>
                   <div className='flex flex-wrap flex-row'>
                     <AiFillGithub className='mx-3 my-1'/>
-                    <p className='text-lg'>/akshaymulik/aiv</p>
+                    <p className='text-lg dark:text-white text-gray-900'>/akshaymulik/aiv</p>
                   </div>
                 </a>
               </div>
@@ -139,7 +139,7 @@ export default function Home() {
                   className='dark:text-white dark:hover:text-teal-500 text-xl hover:text-rose-500'>
                   <div className='flex flex-wrap flex-row'>
                     <AiFillGithub className='mx-3 my-1'/>
-                    <p className='text-lg'>/akshaymulik/Bike_weather</p>
+                    <p className='text-lg dark:text-white text-gray-900'>/akshaymulik/Bike_weather</p>
                   </div>
                 </a>
               </div>
@@ -151,7 +151,7 @@ export default function Home() {
                   className='dark:text-white dark:hover:text-teal-500 text-xl hover:text-rose-500'>
                   <div className='flex flex-wrap flex-row'>
                     <AiFillGithub className='mx-3 my-1'/>
-                    <p className='text-lg'>/akshaymulik/bresenham-LED</p>
+                    <p className='text-lg dark:text-white text-gray-900'>/akshaymulik/bresenham-LED</p>
                   </div>
                 </a>
               </div>
@@ -163,7 +163,7 @@ export default function Home() {
                 className='dark:text-white dark:hover:text-red-500 text-xl hover:text-rose-500'>
                   <div className='flex flex-wrap flex-row'>
                     <AiFillYoutube className='mx-3 my-1'/>
-                    <p className='text-lg'>/akshaymulik/watch?v=e9QeNl3xum0/</p>
+                    <p className='text-lg dark:text-white text-gray-900'>/akshaymulik/watch?v=e9QeNl3xum0/</p>
                   </div>
                 </a>
               </div>
