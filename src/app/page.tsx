@@ -29,11 +29,11 @@ export default function Home() {
       <main className='bg-white px-10 md:px-20 lg:40 dark:bg-gray-900'>
         <section className=' min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
-            <FaSun className='text-yellow-500 dark:collapse text-5xl hover:animate-spin'/>
+            <FaSun className='text-yellow-500 dark:collapse text-5xl hover:animate-spin dark:text-xs'/>
             <ul className='flex items-center'>
               <li>
                 <div className='flex flex-wrap flex-row'>
-                  <AiFillStar className='dark:text-yellow-500 dark:visible collapse text-5xl hover:animate-spin mx-3'/>
+                  <AiFillStar className='dark:text-yellow-500 dark:visible collapse text-5xl hover:animate-spin dark:mx-3'/>
                   <p className='my-3 dark:text-white text-gray-900'> Mode:&nbsp;</p>
                   <BsFillMoonStarsFill onClick={()=> setDarkMode(!darkMode)} className='cursor-pointer text-xl my-3 dark:text-white text-gray-900'/>
                 </div>             
@@ -45,8 +45,8 @@ export default function Home() {
             <Image src={deved} alt={''} layout='fill' objectFit='cover'/>
           </div>
           <div className='text-center p-10'>
-            <h2 className='text-5xl py-2 text-teal-600 font-medium md:tex-6xl'>Akshay Mulik(मुळीक)</h2>
-            <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Software Developer Engineer</h3>
+            <h2 className='text-5xl py-2 text-teal-600 font-medium md:tex-6xl break-word'>Akshay Mulik(मुळीक)</h2>
+            <h3 className='text-2xl py-2 md:text-3xl dark:text-white break-all'>Software Developer Engineer</h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white'>
             <span className='text-teal-500'>Self-learning</span> has been a big part of my journey. Started by maintiaing my PC by reading the motherboard&apos; user manual, and learning from visiting technicians when I was 11.
             Growth in <span className='text-teal-500'>portable electronics</span> motivated me to build some of my <span className='text-teal-500'>Embedded projects</span>, and tinkering with <span className='text-teal-500'>Android&apos;s Open-source</span> and learning how it’s made.
@@ -95,13 +95,13 @@ export default function Home() {
                 <SiAmazonec2 className='flex-center text-5xl text-orange-500 mx-0.5'/>
                 <SiAmazonaws className='flex-center text-5xl mx-0.5'/>
               </div>
-              <h2 className='py-4 text-2xl text-teal-600'>Libraries/Framework/Tools</h2>
+              <h2 className='my-4 text-2xl text-teal-600 break-all'>Libraries/Framework/Tools</h2>
               <p className='text-gray-800 py-1 text-xl'>Tests: Junit,Jasmine</p>
               <p className='text-gray-800 py-1 text-xl'>Node: Angular,React,NextJs</p>
               <p className='text-gray-800 py-1 text-xl'>Big Data: PySpark/Apache Spark on AWS EMR</p>
               <p className='text-gray-800 py-1 text-xl'>CD/CI: Git,Jira,Jenkins</p>
               <p className='text-gray-800 py-1 text-xl'>AWS EC2 CLI</p>
-              <p className='text-gray-800 py-1 text-xl'>Google Cloud: Cloud-Functions,PubSub,Composer</p>
+              <p className='text-gray-800 py-1 text-xl break-all'>Google Cloud: Cloud-Functions,PubSub,Composer</p>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white md:basis-1/3 flex-1'>
               <div className='flex flex-wrap flex-row my-4 justify-center'>
