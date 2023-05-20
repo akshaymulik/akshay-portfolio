@@ -46,7 +46,7 @@ export default function Home() {
           </div>
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:tex-6xl break-word'>Akshay Mulik(मुळीक)</h2>
-            <h3 className='text-2xl py-2 md:text-3xl dark:text-white break-word'>Software Developer Engineer</h3>
+            <h3 className='text-2xl py-2 md:text-3xl dark:text-white break-word text-gray-900'>Software Developer Engineer</h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white'>
             <span className='text-teal-500'>Self-learning</span> has been a big part of my journey. Started by maintiaing my PC by reading the motherboard&apos; user manual, and learning from visiting technicians when I was 11.
             Growth in <span className='text-teal-500'>portable electronics</span> motivated me to build some of my <span className='text-teal-500'>Embedded projects</span>, and tinkering with <span className='text-teal-500'>Android&apos;s Open-source</span> and learning how it’s made.
@@ -70,10 +70,10 @@ export default function Home() {
                 <DiHtml5 className='flex-center text-5xl text-orange-600 mx-0.5'/>
                 <DiCss3 className='flex-center text-5xl text-blue-600 mx-0.5'/>
                 <SiTypescript className='flex-center text-4xl text-sky-600 my-1.5 mx-0.5'/>
-                <DiJava className='flex-center text-5xl mx-0.5'/>
+                <DiJava className='flex-center text-5xl mx-0.5 text-gray-900'/>
                 <DiMysql className='flex-center text-5xl text-cyan-800 mx-0.5'/>
                 <FcLinux className='flex-center text-5xl mx-0.5'/>
-                <DiPython className='flex-center text-5xl mx-0.5'/>
+                <DiPython className='flex-center text-5xl mx-0.5 text-gray-900'/>
                 <SiArduino className='flex-center text-5xl mx-0.25 text-teal-700'/>
               </div>
               <h2 className='py-4 text-teal-600 text-2xl'>Languages</h2>
@@ -87,15 +87,15 @@ export default function Home() {
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white md:basis-1/3 flex-1'>
               <div className='flex flex-wrap flex-row justify-center'>
-                <BiLibrary className='flex-center text-5xl mx-0.5'/>
+                <BiLibrary className='flex-center text-5xl mx-0.5 text-gray-900'/>
                 <BsGit className='flex-center text-5xl mx-0.5 text-orange-600'/>
                 <SiJasmine className='flex-center text-5xl text-fuchsia-700 mx-0.5'/>
-                <DiSpark className='flex-center text-6xl mx-0.5 -my-3'/>
-                <DiJenkins className='flex-center text-5xl mx-0.5'/>
+                <DiSpark className='flex-center text-6xl mx-0.5 -my-3 text-gray-900'/>
+                <DiJenkins className='flex-center text-5xl mx-0.5 text-gray-900'/>
                 <SiAmazonec2 className='flex-center text-5xl text-orange-500 mx-0.5'/>
-                <SiAmazonaws className='flex-center text-5xl mx-0.5'/>
+                <SiAmazonaws className='flex-center text-5xl mx-0.5 text-gray-900'/>
               </div>
-              <h2 className='my-4 text-2xl text-teal-600 break-word'>Libraries/Framework/Tools</h2>
+              <h2 className='my-4 text-2xl text-teal-600 break-all'>Libraries/Framework/Tools</h2>
               <p className='text-gray-800 py-1 text-xl'>Tests: Junit,Jasmine</p>
               <p className='text-gray-800 py-1 text-xl'>Node: Angular,React,NextJs</p>
               <p className='text-gray-800 py-1 text-xl'>Big Data: PySpark/Apache Spark on AWS EMR</p>
